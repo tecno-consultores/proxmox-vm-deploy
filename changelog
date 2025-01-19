@@ -1,4 +1,16 @@
-commit dcd24424ec5175f9813e01916bf8ecc5b8332b00 (HEAD -> main, origin/main)
+commit 781cb5f774da15b5695d9a1c668ab56dde847227 (HEAD -> main, origin/main)
+Author: Jesus Palencia <sinfallas@gmail.com>
+Date:   Sun Jan 19 18:06:49 2025 -0400
+
+    * ram y cores
+
+commit a240a27136a9ecc2bf068f5a96a28db4fe76964a
+Author: Jesus Palencia <sinfallas@gmail.com>
+Date:   Sun Jan 19 17:50:00 2025 -0400
+
+    * changelog
+
+commit dcd24424ec5175f9813e01916bf8ecc5b8332b00
 Author: Jesus Palencia <sinfallas@gmail.com>
 Date:   Sun Jan 19 17:49:52 2025 -0400
 

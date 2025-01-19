@@ -1,4 +1,16 @@
-commit 2f0dc6b527a74f440a568575f21dce57ed77ca52 (HEAD -> main, origin/main)
+commit b6f66928e0f8f31f197ff96569085a890fcb3cbc (HEAD -> main, origin/main)
+Author: Jesus Palencia <sinfallas@gmail.com>
+Date:   Sun Jan 19 11:19:09 2025 -0400
+
+    * dockerfile
+
+commit dbaaf29b08ea8b36e96ca8c9463f5d438d06af42
+Author: Jesus Palencia <sinfallas@gmail.com>
+Date:   Sun Jan 19 11:07:46 2025 -0400
+
+    * changelog
+
+commit 2f0dc6b527a74f440a568575f21dce57ed77ca52
 Author: Jesus Palencia <sinfallas@gmail.com>
 Date:   Sun Jan 19 11:07:37 2025 -0400
 

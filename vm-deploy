@@ -24,7 +24,7 @@ if ! [[ -f /app/image.tar.gz ]]; then
 	echo "ERROR: el archivo /app/image.tar.gz no existe, favor consulte la documentacion."
 	exit 1
 else
-	mv -f /app/image.tar.gz /var/www/html/
+	cp -fv /app/image.tar.gz /var/www/html/
 fi
 
 while read -r ip puerto usuario password vmid nombre url; do

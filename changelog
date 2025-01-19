@@ -1,4 +1,16 @@
-commit 78b9c647bd13349b5f828ce8faea2e3e5c47b1d9 (HEAD -> main, origin/main)
+commit 5efa55fa6c6b913eafff052ab1aee1d7bcdb7660 (HEAD -> main, origin/main)
+Author: Jesus Palencia <sinfallas@gmail.com>
+Date:   Sun Jan 19 13:32:10 2025 -0400
+
+    * qm create
+
+commit c26088f91d5efb3b7e76a8be0bf30a6eb7b7e07f
+Author: Jesus Palencia <sinfallas@gmail.com>
+Date:   Sun Jan 19 11:38:48 2025 -0400
+
+    * changelog
+
+commit 78b9c647bd13349b5f828ce8faea2e3e5c47b1d9
 Author: Jesus Palencia <sinfallas@gmail.com>
 Date:   Sun Jan 19 11:38:35 2025 -0400
 

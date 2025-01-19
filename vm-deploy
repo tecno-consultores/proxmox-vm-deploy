@@ -27,17 +27,17 @@ else
 	chmod -R 777 /var/www/html/downloads/
 fi
 
-while read -r ip puerto usuario password vmid nombre ram cores url; do
-	echo "$ip", "$puerto", "$usuario", "$password", "$vmid", "$nombre", "$ram", "$cores", "$url"
+while read -r ip puerto usuario password vmid nombre ram cores bridge url; do
+	echo "$ip", "$puerto", "$usuario", "$password", "$vmid", "$nombre", "$ram", "$cores", "$bridge", "$url"
 	if [[ "$puerto" == "22" ]]; then
-		sshpass -p $password $cssh $usuario@$ip "qm create $vmid --name $nombre --memory $ram --numa 0 --net0 virtio,bridge=vmbr0,firewall=0,queues=8 --cores $cores --sockets 1 --cpu cputype=host --kvm 1 --acpi 1 --agent 1 --balloon 0 --bios seabios --machine type=q35 --ostype l26 --serial0 socket --vga qxl --virtio0 local:200,aio=threads,backup=1,format=qcow2,cache=none,iothread=1,media=disk --rng0 source=/dev/urandom --onboot 1 --tablet 0 --watchdog model=i6300esb,action=reset"
+		sshpass -p $password $cssh $usuario@$ip "qm create $vmid --name $nombre --memory $ram --numa 0 --net0 virtio,bridge=$bridge,firewall=0,queues=8 --cores $cores --sockets 1 --cpu cputype=host --kvm 1 --acpi 1 --agent 1 --balloon 0 --bios seabios --machine type=q35 --ostype l26 --serial0 socket --vga qxl --virtio0 local:200,aio=threads,backup=1,format=qcow2,cache=none,iothread=1,media=disk --rng0 source=/dev/urandom --onboot 1 --tablet 0 --watchdog model=i6300esb,action=reset"
 		sshpass -p $password $cssh $usuario@$ip "rm -f /var/lib/vz/images/$vmid/vm-$vmid-disk-0.qcow2"
 		sshpass -p $password $cssh $usuario@$ip "wget $url --show-progress -O /root/image.tar.gz"
 		sshpass -p $password $cssh $usuario@$ip "tar -xzf /root/image.tar.gz -C /var/lib/vz/images/$vmid/"
 		sshpass -p $password $cssh $usuario@$ip "mv -f /var/lib/vz/images/$vmid/image.qcow2 /var/lib/vz/images/$vmid/vm-$vmid-disk-0.qcow2"
 		sshpass -p $password $cssh $usuario@$ip "rm -f /root/image.tar.gz"
 	else
-		sshpass -p $password $cssh -p $puerto $usuario@$ip "qm create $vmid --name $nombre --memory $ram --numa 0 --net0 virtio,bridge=vmbr0,firewall=0,queues=8 --cores $cores --sockets 1 --cpu cputype=host --kvm 1 --acpi 1 --agent 1 --balloon 0 --bios seabios --machine type=q35 --ostype l26 --serial0 socket --vga qxl --virtio0 local:200,aio=threads,backup=1,format=qcow2,cache=none,iothread=1,media=disk --rng0 source=/dev/urandom --onboot 1 --tablet 0 --watchdog model=i6300esb,action=reset"
+		sshpass -p $password $cssh -p $puerto $usuario@$ip "qm create $vmid --name $nombre --memory $ram --numa 0 --net0 virtio,bridge=$bridge,firewall=0,queues=8 --cores $cores --sockets 1 --cpu cputype=host --kvm 1 --acpi 1 --agent 1 --balloon 0 --bios seabios --machine type=q35 --ostype l26 --serial0 socket --vga qxl --virtio0 local:200,aio=threads,backup=1,format=qcow2,cache=none,iothread=1,media=disk --rng0 source=/dev/urandom --onboot 1 --tablet 0 --watchdog model=i6300esb,action=reset"
 		sshpass -p $password $cssh -p $puerto $usuario@$ip "rm -f /var/lib/vz/images/$vmid/vm-$vmid-disk-0.qcow2"
 		sshpass -p $password $cssh -p $puerto $usuario@$ip "wget $url --show-progress -O /root/image.tar.gz"
 		sshpass -p $password $cssh -p $puerto $usuario@$ip "tar -xzf /root/image.tar.gz -C /var/lib/vz/images/$vmid/"

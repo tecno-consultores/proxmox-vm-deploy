@@ -1,4 +1,16 @@
-commit b6f66928e0f8f31f197ff96569085a890fcb3cbc (HEAD -> main, origin/main)
+commit 62423b0eb68def20909f15fae4a6554afa9f5aa2 (HEAD -> main, origin/main)
+Author: Jesus Palencia <sinfallas@gmail.com>
+Date:   Sun Jan 19 11:32:14 2025 -0400
+
+    * variables
+
+commit 63ed653e1c690debb1a96e652d306a5a3ae261f7
+Author: Jesus Palencia <sinfallas@gmail.com>
+Date:   Sun Jan 19 11:19:18 2025 -0400
+
+    * changelog
+
+commit b6f66928e0f8f31f197ff96569085a890fcb3cbc
 Author: Jesus Palencia <sinfallas@gmail.com>
 Date:   Sun Jan 19 11:19:09 2025 -0400
 

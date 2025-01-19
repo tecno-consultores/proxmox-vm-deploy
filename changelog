@@ -1,4 +1,16 @@
-commit 188935fdafafcb074c966b05a9f81bc9e86a24b8 (HEAD -> main, origin/main)
+commit 42f0836973d666a5d18de1cbfd95c3e19a736a57 (HEAD -> main, origin/main)
+Author: Jesus Palencia <sinfallas@gmail.com>
+Date:   Sun Jan 19 14:54:42 2025 -0400
+
+    * mover el archivo de imagen
+
+commit 7cd07d68d82198d22218525b8d43e2d6e6580c31
+Author: Jesus Palencia <sinfallas@gmail.com>
+Date:   Sun Jan 19 14:37:20 2025 -0400
+
+    * changelog
+
+commit 188935fdafafcb074c966b05a9f81bc9e86a24b8
 Author: Jesus Palencia <sinfallas@gmail.com>
 Date:   Sun Jan 19 14:37:09 2025 -0400
 

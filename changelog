@@ -1,4 +1,16 @@
-commit 7fd073d952b22e150fb9156a752d5ab7f02d3bf8 (HEAD -> main, origin/main)
+commit 188935fdafafcb074c966b05a9f81bc9e86a24b8 (HEAD -> main, origin/main)
+Author: Jesus Palencia <sinfallas@gmail.com>
+Date:   Sun Jan 19 14:37:09 2025 -0400
+
+    * gitignore
+
+commit 229ce277c2290593a634805ed504b381aa321fdd
+Author: Jesus Palencia <sinfallas@gmail.com>
+Date:   Sun Jan 19 14:35:08 2025 -0400
+
+    * changelog
+
+commit 7fd073d952b22e150fb9156a752d5ab7f02d3bf8
 Author: Jesus Palencia <sinfallas@gmail.com>
 Date:   Sun Jan 19 14:34:52 2025 -0400
 

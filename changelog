@@ -1,4 +1,16 @@
-commit ebe0c79ae0c5e8a2ffd7a23523f860c1a98c7088 (HEAD -> main, origin/main)
+commit 7d1cc635d948d175d319e140e36df4cebc326a9a (HEAD -> main, origin/main)
+Author: Jesus Palencia <sinfallas@gmail.com>
+Date:   Sun Jan 19 15:55:35 2025 -0400
+
+    * bugfix
+
+commit 82433234f762bc1df0a89d6ce574ebaa408443dc
+Author: Jesus Palencia <sinfallas@gmail.com>
+Date:   Sun Jan 19 15:11:52 2025 -0400
+
+    * changelog
+
+commit ebe0c79ae0c5e8a2ffd7a23523f860c1a98c7088
 Author: Jesus Palencia <sinfallas@gmail.com>
 Date:   Sun Jan 19 15:11:43 2025 -0400
 

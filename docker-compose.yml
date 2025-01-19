@@ -1,0 +1,10 @@
+services:
+  proxmox-vm-deploy:
+    image: sinfallas/proxmox-vm-deploy:latest
+    container_name: proxmox-vm-deploy
+    hostname: proxmox-vm-deploy
+    pull_policy: always
+    ports:
+      - 80:80
+    volumes:
+      - ./:/app:rw

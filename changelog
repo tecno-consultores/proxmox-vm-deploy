@@ -1,4 +1,16 @@
-commit 2b7c466702ff4ef452de342f3faa4fa4ee88dbd6 (HEAD -> main, origin/main)
+commit f8392d3418913e4b75726655e802366ba896d9ca (HEAD -> main, origin/main)
+Author: Jesus Palencia <sinfallas@gmail.com>
+Date:   Sun Jan 19 16:23:26 2025 -0400
+
+    * nginx
+
+commit 31a823dbc9f27027bbf26dd2d4aa65c869b1baac
+Author: Jesus Palencia <sinfallas@gmail.com>
+Date:   Sun Jan 19 16:03:27 2025 -0400
+
+    * changelog
+
+commit 2b7c466702ff4ef452de342f3faa4fa4ee88dbd6
 Author: Jesus Palencia <sinfallas@gmail.com>
 Date:   Sun Jan 19 16:03:12 2025 -0400
 

@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+# Made by Sinfallas <sinfallas@yahoo.com>
+# Licence: GPL-2
+SECONDS=0
+LC_ALL=C
+IFS=" "
+LOCKFILE="/tmp/$(basename $0)_$(whoami)"
+LOCKFD="150"
+cssh="ssh -4 -C -q -o StrictHostKeyChecking=no -o ConnectTimeout=3"
+fecha=$(date +%d-%m-%Y)
+
+function lock () {
+	echo {LOCKFD}>$LOCKFILE
+	flock -n $LOCKFD
+}
+
+function exit_error () {
+	echo "ERROR: Ya hay una instancia en ejecución. Saliendo"
+	exit 1
+}
+
+function ayuda () {
+	echo "ERROR: faltan variables de entorno."
+	exit 1
+}
+
+function clean_1() {
+	rm -f /tmp/$(basename $0)_$(whoami)
+	rm -f /run/$(basename $0).pid
+}
+
+echo "$BASHPID" > /run/$(basename $0).pid
+trap "clean_1; exit" 0 1 2 3 9 15
+lock || exit_error
+
+if ! [[ -f /app/servers.env ]]; then
+	echo "ERROR: el archivo /app/servers.env no existe, favor consulte la documentacion."
+	exit 1
+fi
+
+
+echo "duracion $SECONDS segundos"
+echo "Finalizado."
+exit 0

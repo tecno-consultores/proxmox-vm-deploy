@@ -1,4 +1,16 @@
-commit 62423b0eb68def20909f15fae4a6554afa9f5aa2 (HEAD -> main, origin/main)
+commit 78b9c647bd13349b5f828ce8faea2e3e5c47b1d9 (HEAD -> main, origin/main)
+Author: Jesus Palencia <sinfallas@gmail.com>
+Date:   Sun Jan 19 11:38:35 2025 -0400
+
+    * nginx para descargar el archivo
+
+commit 43ffa9defe2a6d74def52779e33fe4201ad76b59
+Author: Jesus Palencia <sinfallas@gmail.com>
+Date:   Sun Jan 19 11:32:22 2025 -0400
+
+    * changelog
+
+commit 62423b0eb68def20909f15fae4a6554afa9f5aa2
 Author: Jesus Palencia <sinfallas@gmail.com>
 Date:   Sun Jan 19 11:32:14 2025 -0400
 

@@ -1,4 +1,28 @@
-commit 37e9ed64deba21e8f27ecaaeea22710ca726275b (HEAD -> main, origin/main)
+commit 51d76ee718829b898d85bd303b973e718ba70b88 (HEAD -> main, origin/main)
+Author: Jesus Palencia <sinfallas@gmail.com>
+Date:   Thu Mar 6 20:54:41 2025 -0400
+
+    * bugfix
+
+commit faebcf9cd649113cce95a2859077ff8bc7daf16d (tag: v1.1)
+Author: Jesús Palencia <sinfallas@gmail.com>
+Date:   Tue Jan 21 09:37:23 2025 -0400
+
+    Update vm-deploy
+
+commit 53f2c82eede4d240226a2462c42e523f70497d7d
+Author: Jesús Palencia <sinfallas@gmail.com>
+Date:   Tue Jan 21 09:36:30 2025 -0400
+
+    Update vm-deploy
+
+commit 201a7e9a2d6b4f72290d4afcb44da3abb88576a0
+Author: Jesus Palencia <sinfallas@gmail.com>
+Date:   Sun Jan 19 18:31:25 2025 -0400
+
+    * changelog
+
+commit 37e9ed64deba21e8f27ecaaeea22710ca726275b
 Author: Jesus Palencia <sinfallas@gmail.com>
 Date:   Sun Jan 19 18:31:17 2025 -0400
 
@@ -16,7 +40,7 @@ Date:   Sun Jan 19 18:29:33 2025 -0400
 
     * env
 
-commit 809a0aea3d1ca7415fdbcc7ee6436110bb70a04a
+commit 809a0aea3d1ca7415fdbcc7ee6436110bb70a04a (tag: v1.0)
 Author: Jesus Palencia <sinfallas@gmail.com>
 Date:   Sun Jan 19 18:16:33 2025 -0400
 

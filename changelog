@@ -1,281 +1,293 @@
-commit b3de712ccbb9b9eecdd38a639e80a40848137f43 (HEAD -> main, origin/main, origin/HEAD)
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 18 10:28:44 2026 -0400
-
-    * update to 24.04
-
-commit 5d60a83b7f6d784a6cb80f129a96cfbaff948f8a
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sat Jan 17 10:52:07 2026 -0400
-
-    * changelog
-
-commit 0878c301042567074812d624e315d60f16b97a6b
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sat Jan 17 10:51:59 2026 -0400
-
-    * build script
-
-commit d8d4531f2fa98f612da6d9e25968c0ff1fb7b209
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Thu Mar 6 20:54:51 2025 -0400
-
-    * changelog
-
-commit 51d76ee718829b898d85bd303b973e718ba70b88
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Thu Mar 6 20:54:41 2025 -0400
-
-    * bugfix
-
-commit faebcf9cd649113cce95a2859077ff8bc7daf16d (tag: v1.1)
-Author: Jesús Palencia <sinfallas@gmail.com>
-Date:   Tue Jan 21 09:37:23 2025 -0400
-
-    Update vm-deploy
-
-commit 53f2c82eede4d240226a2462c42e523f70497d7d
-Author: Jesús Palencia <sinfallas@gmail.com>
-Date:   Tue Jan 21 09:36:30 2025 -0400
-
-    Update vm-deploy
-
-commit 201a7e9a2d6b4f72290d4afcb44da3abb88576a0
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 18:31:25 2025 -0400
-
-    * changelog
-
-commit 37e9ed64deba21e8f27ecaaeea22710ca726275b
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 18:31:17 2025 -0400
-
-    * readme
-
-commit 6bbd0b3fb2ce3b02a66d67cd437e0e870409f380
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 18:29:43 2025 -0400
-
-    * changelog
-
-commit bb450372a48932db1a6d03bed5e3e1b9716922c5
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 18:29:33 2025 -0400
-
-    * env
-
-commit 809a0aea3d1ca7415fdbcc7ee6436110bb70a04a (tag: v1.0)
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 18:16:33 2025 -0400
-
-    * changelog
-
-commit 506c6d533ccd5abc16d7e7df36e7f7ef246120a1
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 18:16:22 2025 -0400
-
-    * variables
-
-commit 51df91682c5325d00801c388d6f14fac4a420b5e
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 18:07:02 2025 -0400
-
-    * changelog
-
-commit 781cb5f774da15b5695d9a1c668ab56dde847227
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 18:06:49 2025 -0400
-
-    * ram y cores
-
-commit a240a27136a9ecc2bf068f5a96a28db4fe76964a
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 17:50:00 2025 -0400
-
-    * changelog
-
-commit dcd24424ec5175f9813e01916bf8ecc5b8332b00
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 17:49:52 2025 -0400
-
-    * bugfix
-
-commit dbfddfa8679cb2759ff5cf81bd8a6c6688f07b7a
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 17:46:23 2025 -0400
-
-    * changelog
-
-commit 434f9c3c6da87c02709427b018d63aba304b0f69
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 17:46:14 2025 -0400
-
-    * downloads
-
-commit 8b0782cb23e8a781c80c84e0c523c68a65eb7516
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 16:25:10 2025 -0400
-
-    * changelog
-
-commit 7a001a11bdde931cffe8dfb984ce431d0e7af83a
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 16:24:59 2025 -0400
-
-    * order
-
-commit 43bf93d5b98f3f595d241bcb757879935da5a7e7
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 16:23:33 2025 -0400
-
-    * changelog
-
-commit f8392d3418913e4b75726655e802366ba896d9ca
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 16:23:26 2025 -0400
-
-    * nginx
-
-commit 31a823dbc9f27027bbf26dd2d4aa65c869b1baac
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 16:03:27 2025 -0400
-
-    * changelog
-
-commit 2b7c466702ff4ef452de342f3faa4fa4ee88dbd6
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 16:03:12 2025 -0400
-
-    * progress
-
-commit b43934334069f2bca99c0afd767baaf565cd8114
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 15:58:13 2025 -0400
-
-    * changelog
-
-commit 796cd0e9d2378fee429a44b6c25d1fac57d91821
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 15:58:05 2025 -0400
-
-    * bugfix
-
-commit 5962d012094674189fcf0b0ba589144c590386f5
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 15:55:43 2025 -0400
-
-    * changelog
-
-commit 7d1cc635d948d175d319e140e36df4cebc326a9a
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 15:55:35 2025 -0400
-
-    * bugfix
-
-commit 82433234f762bc1df0a89d6ce574ebaa408443dc
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 15:11:52 2025 -0400
-
-    * changelog
-
-commit ebe0c79ae0c5e8a2ffd7a23523f860c1a98c7088
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 15:11:43 2025 -0400
-
-    * comentario
-
-commit 7ca8f4b1234d56f644a8b41136a1a23cf21aac7a
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 14:54:54 2025 -0400
-
-    * changelog
-
-commit 42f0836973d666a5d18de1cbfd95c3e19a736a57
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 14:54:42 2025 -0400
-
-    * mover el archivo de imagen
-
-commit 7cd07d68d82198d22218525b8d43e2d6e6580c31
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 14:37:20 2025 -0400
-
-    * changelog
-
-commit 188935fdafafcb074c966b05a9f81bc9e86a24b8
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 14:37:09 2025 -0400
-
-    * gitignore
-
-commit 229ce277c2290593a634805ed504b381aa321fdd
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 14:35:08 2025 -0400
-
-    * changelog
-
-commit 7fd073d952b22e150fb9156a752d5ab7f02d3bf8
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 14:34:52 2025 -0400
-
-    * nginx folder
-
-commit 08e4f3699f616d9a0ded1f81ffdb23cea019ced6
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 13:32:21 2025 -0400
-
-    * changelog
-
-commit 5efa55fa6c6b913eafff052ab1aee1d7bcdb7660
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 13:32:10 2025 -0400
-
-    * qm create
-
-commit c26088f91d5efb3b7e76a8be0bf30a6eb7b7e07f
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 11:38:48 2025 -0400
-
-    * changelog
-
-commit 78b9c647bd13349b5f828ce8faea2e3e5c47b1d9
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 11:38:35 2025 -0400
-
-    * nginx para descargar el archivo
-
-commit 43ffa9defe2a6d74def52779e33fe4201ad76b59
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 11:32:22 2025 -0400
-
-    * changelog
-
-commit 62423b0eb68def20909f15fae4a6554afa9f5aa2
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 11:32:14 2025 -0400
-
-    * variables
-
-commit 63ed653e1c690debb1a96e652d306a5a3ae261f7
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 11:19:18 2025 -0400
-
-    * changelog
-
-commit b6f66928e0f8f31f197ff96569085a890fcb3cbc
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 11:19:09 2025 -0400
-
-    * dockerfile
-
-commit dbaaf29b08ea8b36e96ca8c9463f5d438d06af42
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 11:07:46 2025 -0400
-
-    * changelog
-
-commit 2f0dc6b527a74f440a568575f21dce57ed77ca52
-Author: Jesus Palencia <sinfallas@gmail.com>
-Date:   Sun Jan 19 11:07:37 2025 -0400
-
-    * primer commit
+* commit e82d5983ca77ec98ad3b5f3b08293d896bc43bf6 (HEAD -> main, origin/main, origin/HEAD)
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Mar 29 17:34:42 2026 -0400
+| 
+|     * armv7
+| 
+* commit 2c1507ae29d161a655b985e75b6f45b137bd178c
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 18 10:28:53 2026 -0400
+| 
+|     * changelog
+| 
+* commit b3de712ccbb9b9eecdd38a639e80a40848137f43
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 18 10:28:44 2026 -0400
+| 
+|     * update to 24.04
+| 
+* commit 5d60a83b7f6d784a6cb80f129a96cfbaff948f8a
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sat Jan 17 10:52:07 2026 -0400
+| 
+|     * changelog
+| 
+* commit 0878c301042567074812d624e315d60f16b97a6b
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sat Jan 17 10:51:59 2026 -0400
+| 
+|     * build script
+| 
+* commit d8d4531f2fa98f612da6d9e25968c0ff1fb7b209
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Thu Mar 6 20:54:51 2025 -0400
+| 
+|     * changelog
+| 
+* commit 51d76ee718829b898d85bd303b973e718ba70b88
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Thu Mar 6 20:54:41 2025 -0400
+| 
+|     * bugfix
+| 
+* commit faebcf9cd649113cce95a2859077ff8bc7daf16d (tag: v1.1)
+| Author: Jesús Palencia <sinfallas@gmail.com>
+| Date:   Tue Jan 21 09:37:23 2025 -0400
+| 
+|     Update vm-deploy
+| 
+* commit 53f2c82eede4d240226a2462c42e523f70497d7d
+| Author: Jesús Palencia <sinfallas@gmail.com>
+| Date:   Tue Jan 21 09:36:30 2025 -0400
+| 
+|     Update vm-deploy
+| 
+* commit 201a7e9a2d6b4f72290d4afcb44da3abb88576a0
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 18:31:25 2025 -0400
+| 
+|     * changelog
+| 
+* commit 37e9ed64deba21e8f27ecaaeea22710ca726275b
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 18:31:17 2025 -0400
+| 
+|     * readme
+| 
+* commit 6bbd0b3fb2ce3b02a66d67cd437e0e870409f380
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 18:29:43 2025 -0400
+| 
+|     * changelog
+| 
+* commit bb450372a48932db1a6d03bed5e3e1b9716922c5
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 18:29:33 2025 -0400
+| 
+|     * env
+| 
+* commit 809a0aea3d1ca7415fdbcc7ee6436110bb70a04a (tag: v1.0)
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 18:16:33 2025 -0400
+| 
+|     * changelog
+| 
+* commit 506c6d533ccd5abc16d7e7df36e7f7ef246120a1
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 18:16:22 2025 -0400
+| 
+|     * variables
+| 
+* commit 51df91682c5325d00801c388d6f14fac4a420b5e
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 18:07:02 2025 -0400
+| 
+|     * changelog
+| 
+* commit 781cb5f774da15b5695d9a1c668ab56dde847227
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 18:06:49 2025 -0400
+| 
+|     * ram y cores
+| 
+* commit a240a27136a9ecc2bf068f5a96a28db4fe76964a
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 17:50:00 2025 -0400
+| 
+|     * changelog
+| 
+* commit dcd24424ec5175f9813e01916bf8ecc5b8332b00
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 17:49:52 2025 -0400
+| 
+|     * bugfix
+| 
+* commit dbfddfa8679cb2759ff5cf81bd8a6c6688f07b7a
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 17:46:23 2025 -0400
+| 
+|     * changelog
+| 
+* commit 434f9c3c6da87c02709427b018d63aba304b0f69
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 17:46:14 2025 -0400
+| 
+|     * downloads
+| 
+* commit 8b0782cb23e8a781c80c84e0c523c68a65eb7516
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 16:25:10 2025 -0400
+| 
+|     * changelog
+| 
+* commit 7a001a11bdde931cffe8dfb984ce431d0e7af83a
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 16:24:59 2025 -0400
+| 
+|     * order
+| 
+* commit 43bf93d5b98f3f595d241bcb757879935da5a7e7
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 16:23:33 2025 -0400
+| 
+|     * changelog
+| 
+* commit f8392d3418913e4b75726655e802366ba896d9ca
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 16:23:26 2025 -0400
+| 
+|     * nginx
+| 
+* commit 31a823dbc9f27027bbf26dd2d4aa65c869b1baac
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 16:03:27 2025 -0400
+| 
+|     * changelog
+| 
+* commit 2b7c466702ff4ef452de342f3faa4fa4ee88dbd6
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 16:03:12 2025 -0400
+| 
+|     * progress
+| 
+* commit b43934334069f2bca99c0afd767baaf565cd8114
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 15:58:13 2025 -0400
+| 
+|     * changelog
+| 
+* commit 796cd0e9d2378fee429a44b6c25d1fac57d91821
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 15:58:05 2025 -0400
+| 
+|     * bugfix
+| 
+* commit 5962d012094674189fcf0b0ba589144c590386f5
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 15:55:43 2025 -0400
+| 
+|     * changelog
+| 
+* commit 7d1cc635d948d175d319e140e36df4cebc326a9a
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 15:55:35 2025 -0400
+| 
+|     * bugfix
+| 
+* commit 82433234f762bc1df0a89d6ce574ebaa408443dc
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 15:11:52 2025 -0400
+| 
+|     * changelog
+| 
+* commit ebe0c79ae0c5e8a2ffd7a23523f860c1a98c7088
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 15:11:43 2025 -0400
+| 
+|     * comentario
+| 
+* commit 7ca8f4b1234d56f644a8b41136a1a23cf21aac7a
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 14:54:54 2025 -0400
+| 
+|     * changelog
+| 
+* commit 42f0836973d666a5d18de1cbfd95c3e19a736a57
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 14:54:42 2025 -0400
+| 
+|     * mover el archivo de imagen
+| 
+* commit 7cd07d68d82198d22218525b8d43e2d6e6580c31
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 14:37:20 2025 -0400
+| 
+|     * changelog
+| 
+* commit 188935fdafafcb074c966b05a9f81bc9e86a24b8
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 14:37:09 2025 -0400
+| 
+|     * gitignore
+| 
+* commit 229ce277c2290593a634805ed504b381aa321fdd
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 14:35:08 2025 -0400
+| 
+|     * changelog
+| 
+* commit 7fd073d952b22e150fb9156a752d5ab7f02d3bf8
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 14:34:52 2025 -0400
+| 
+|     * nginx folder
+| 
+* commit 08e4f3699f616d9a0ded1f81ffdb23cea019ced6
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 13:32:21 2025 -0400
+| 
+|     * changelog
+| 
+* commit 5efa55fa6c6b913eafff052ab1aee1d7bcdb7660
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 13:32:10 2025 -0400
+| 
+|     * qm create
+| 
+* commit c26088f91d5efb3b7e76a8be0bf30a6eb7b7e07f
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 11:38:48 2025 -0400
+| 
+|     * changelog
+| 
+* commit 78b9c647bd13349b5f828ce8faea2e3e5c47b1d9
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 11:38:35 2025 -0400
+| 
+|     * nginx para descargar el archivo
+| 
+* commit 43ffa9defe2a6d74def52779e33fe4201ad76b59
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 11:32:22 2025 -0400
+| 
+|     * changelog
+| 
+* commit 62423b0eb68def20909f15fae4a6554afa9f5aa2
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 11:32:14 2025 -0400
+| 
+|     * variables
+| 
+* commit 63ed653e1c690debb1a96e652d306a5a3ae261f7
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 11:19:18 2025 -0400
+| 
+|     * changelog
+| 
+* commit b6f66928e0f8f31f197ff96569085a890fcb3cbc
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 11:19:09 2025 -0400
+| 
+|     * dockerfile
+| 
+* commit dbaaf29b08ea8b36e96ca8c9463f5d438d06af42
+| Author: Jesus Palencia <sinfallas@gmail.com>
+| Date:   Sun Jan 19 11:07:46 2025 -0400
+| 
+|     * changelog
+| 
+* commit 2f0dc6b527a74f440a568575f21dce57ed77ca52
+  Author: Jesus Palencia <sinfallas@gmail.com>
+  Date:   Sun Jan 19 11:07:37 2025 -0400
+  
+      * primer commit

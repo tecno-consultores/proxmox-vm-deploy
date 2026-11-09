@@ -1,5 +1,5 @@
 FROM ubuntu:26.04
-LABEL org.opencontainers.image.authors="sinfallas@gmail.com"
+LABEL org.opencontainers.image.authors="Jesus Palencia <sinfallas@gmail.com> (Creado en Tecno Consultores)"
 ENV DEBIAN_FRONTEND=noninteractive
 WORKDIR /app
 RUN apt update -qq && apt -y dist-upgrade && apt -y install --no-install-recommends --no-install-suggests tzdata && apt -y install --no-install-recommends --no-install-suggests nginx libnginx-mod-stream ca-certificates git libnet-ssleay-perl libcrypt-ssleay-perl tar zip unzip ssh sshpass sshfs samba-client swaks nano wget curl rsync expect && apt clean && apt -y autoremove && rm -rf /var/lib/{apt,dpkg,cache,log} && rm -rf /var/cache/* && rm -rf /var/log/apt/* && rm -rf /tmp/*
